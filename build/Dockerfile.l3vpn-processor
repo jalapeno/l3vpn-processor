@@ -1,0 +1,4 @@
+FROM scratch
+
+COPY ./bin/l3vpn-processor /l3vpn-processor
+ENTRYPOINT ["/l3vpn-processor"]
